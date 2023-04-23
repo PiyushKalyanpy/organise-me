@@ -1,39 +1,41 @@
-# Organise Me Website
+<h1 align="center">Productivity Chrome Extentions</h1> 
 
-🚀 A productivity Chrome extensions list website built with Next.js and Tailwind CSS.
 
-## Features
 
-📜 View a list of productivity Chrome extensions<br>
-🔍 Read about the features and benefits of each extension<br>
-💻 Find links to download and install each extension<br>
-📱 Responsive design for optimal viewing on all devices
+# What Is Organise me
 
-## Technologies Used
+Organise Me is a productivity tool designed to help users manage their tasks, schedules, and projects more efficiently. It offers a wide range of features including to-do lists, calendars, reminders, and project management tools to help users stay on top of their work.With Organise Me, users can create and organize their tasks and projects in a simple, intuitive interface. They can set due dates and reminders, track their progress, and collaborate with team members to complete projects faster.
 
- Next.js<br>
- Tailwind CSS<br>
- JavaScript<br>
- HTML<br>
- CSS
 
-## Getting Started
+# Tech Stack Used
+- [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
+- [Tailwind CSS](https://tailwindcss.com/) - a CSS framework for styling
 
-To get started with this project, you can follow these steps:
 
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies by running `npm install`.
-3. Run the development server by running `npm run dev`.
+# Getting Started
+## How To SetUp
+- Clone This Project
 
-## Contributing
+- Install Dependencies
+```
+$ npm i
+```
+- Start LocalHost Server
+```
+$ npm run dev
+```
+## [How To Contribute](CONTRIBUTIONS%20GUIDE.md)
+Thanks for for contributing to this project. We greatly appreciate any work contributed, no matter how small!
+<br>
+### Issues & Pull Requests
+When you are ready to start work on an issue:
+- Let us know by leaving a comment on the issue (or you can also raise a new issue if you want to work on something completely new in the project)
+- Once you are assigned the issue (or once you have claimed the issue) only then proceed to make the Pull Request. This will help avoid multiple PRs pertaining to the same issue.
+- Please check out the [contribution guide](CONTRIBUTIONS%20GUIDE.md)
 
-🤝 If you'd like to contribute to this project, you can:<br>
-🐞 Submit a bug report or feature request by opening an issue.<br>
-🍴 Fork the repository, make changes, and submit a pull request.
-
-## License
-
-📝 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+# [Code of Conduct](CODE%20OF%20CONDUCT.md)
+# License
+Organise Me is licensed under the MIT License - see the [License File](LICENSE) for details.
 
 
 ## Commit message Styles
@@ -54,10 +56,9 @@ To get started with this project, you can follow these steps:
 | `CONFIG`  | ⚙️   | Update or add configuration files          |
 | `REFACTOR`| ♻️    | Refactor code without adding new features  |
 
-## Contributors
+# Contributors
+A hall of fame for those who have contributed to this repo. Thanks once again for your valuable contributions. Kudos !!!
+<br>
 
-👏 A big thanks to all the contributors who have helped improve this project. You can find a list of them [here](https://github.com/PiyushKalyanpy/organise-me-website/graphs/contributors).
-
-## Support
-
-🎉 If you found this project helpful, please give it a star to show your support!
+# Support
+Do give us a ⭐️ for showing your support...............
