@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavbarDesk = () => {
   return (
-    <div className="flex flex-row justify-between text-zinc-700 w-screen h-20 bg-white/20 border-b-2 border-white backdrop-blur-lg items-center px-16">
+    <div className="fixed z-10 flex flex-row justify-between text-zinc-700 w-screen h-20 bg-white/20 border-b-2 border-white backdrop-blur-lg items-center px-16">
       {/* brand logo */}
       <div className=" flex flex-row w-fill h-20 items-center">
         <Image src="/organiseme.svg" alt="logo" width={80} height={80} />

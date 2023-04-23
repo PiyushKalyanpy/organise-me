@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import { NavbarDesk, NavbarMob } from "@/components/exporter";
 import HeroDesk from "@/components/desktop/HeroDesk";
+import "material-icons/iconfont/material-icons.css"
 
 export default function Home() {
   return (
@@ -10,16 +11,15 @@ export default function Home() {
       <Head>
         <title>Organise Me</title>
       </Head>
-      <main className="w-screen min-h-screen h-full bg-white">
-        <Image
-          src="/bghead.png"
-          alt="logo"
-          layout="fill"
-          className="border-2 fixed"
-        />
-
+      <main className="w-screen min-h-screen h-full bg-white overflow-hidden">
         {/* for desktops */}
-        <div className="hidden md:block">
+        <div className="hidden md:block z-10">
+          {/* <Image
+            src="/bghead.png"
+            alt="logo"
+            layout="fill"
+            className="fixed"
+          /> */}
           <NavbarDesk />
           <HeroDesk />
         </div>
