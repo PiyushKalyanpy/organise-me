@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const HeroDesk = () => {
   return (
-    <div className="grid grid-cols-2   w-screen text-black min-h-screen z-50 px-20 overflow-hidden">
+    <div className="grid grid-cols-2   w-screen text-black min-h-screen z-50  overflow-hidden">
       {/* Hero content with CTA */}
       <div className="  my-auto">
         {/* heading with description*/}
-        <div className="flex flex-col   gap-4 my-auto">
+        <div className="flex flex-col   gap-4 my-auto px-20">
           <h2 className="text-6xl font-bold">
             Maximize your productivity with
             <span className="text-6xl font-bold my-2  hover:rounded-3xl bg-gradient-to-r from-violet-600  to-pink-400 inline-block text-transparent bg-clip-text ">
@@ -39,7 +39,7 @@ const HeroDesk = () => {
               src="/heroImage.png"
               alt="logo"
               layout="fill"
-              className="object-scale-down"
+              className="object-scale-down pt-10"
             />
           </div>
         </div>

@@ -1,9 +1,15 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import { NavbarDesk, NavbarMob } from "@/components/exporter";
+import {
+  Contact,
+  FeatureSection,
+  Footer,
+  NavbarDesk,
+  NavbarMob,
+} from "@/components/exporter";
 import HeroDesk from "@/components/desktop/HeroDesk";
-import "material-icons/iconfont/material-icons.css"
+import "material-icons/iconfont/material-icons.css";
 
 export default function Home() {
   return (
@@ -11,18 +17,31 @@ export default function Home() {
       <Head>
         <title>Organise Me</title>
       </Head>
-      <main className="w-screen min-h-screen h-full bg-white overflow-hidden">
-        {/* for desktops */}
-        <div className="hidden md:block z-10">
-          {/* <Image
-            src="/bghead.png"
-            alt="logo"
-            layout="fill"
-            className="fixed"
-          /> */}
-          <NavbarDesk />
-          <HeroDesk />
+      <main className="w-screen h-full  bg-white overflow-x-hidden">
+        {/* background */}
+
+        <div className="relative h-screen">
+          <div className="absolute inset-0">
+            <Image
+              src="/bghead.png"
+              alt="logo"
+              layout="fill"
+              objectFit="cover"
+              className="object-scale-down "
+            />
+          </div>
+          <div className="w-screen relative z-10 flex items-center justify-center h-full bg-white">
+            <div className="hidden md:block gap-10 md:flex-col z-10 h-full">
+              <NavbarDesk />
+              <HeroDesk />
+              <FeatureSection />
+              <Contact />
+              <Footer />
+            </div>
+          </div>
         </div>
+        {/* for desktops */}
+
         {/* for mobile devices */}
         <div className="md:hidden ">asdad</div>
       </main>
