@@ -1,0 +1,12 @@
+{
+    "extensions": [
+      {
+        "name": "Example Extension",
+        "description": "This is an example extension",
+        "version": "1.0.0",
+        "author": "Piyush Kalyan",
+        "download_url": "https://example.com/downloads/example_extension.zip",
+        "icon_url": "https://example.com/images/example_extension_icon.png"
+      }
+    ]
+}

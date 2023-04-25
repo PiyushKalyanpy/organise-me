@@ -21,16 +21,16 @@ export default function Home() {
         {/* background */}
 
         <div className="relative h-screen">
-          <div className="absolute inset-0">
+          <div className=" absolute inset-0 z-0 bg-white blur-xl overflow-auto">
             <Image
               src="/bghead.png"
               alt="logo"
               layout="fill"
               objectFit="cover"
-              className="object-scale-down "
+              className="fixed object-scale-down scale-[0.8] "
             />
           </div>
-          <div className="w-screen relative z-10 flex items-center justify-center h-full bg-white">
+          <div className="w-screen relative z-10 flex items-center justify-center h-full">
             <div className="hidden md:block gap-10 md:flex-col z-10 h-full">
               <NavbarDesk />
               <HeroDesk />

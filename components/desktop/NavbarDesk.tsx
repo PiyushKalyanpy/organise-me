@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ContributeButton } from "../exporter";
 
 const NavbarDesk = () => {
   return (
@@ -10,14 +11,15 @@ const NavbarDesk = () => {
         <h1 className="text-xl font-semibold  flex flex-row ">Organise Me</h1>
       </div>
       {/* nav links */}
-      <div>
-        <ul className="flex flex-row gap-4">
+      <div className="flex flex-row gap-10 ">
+        <ul className="flex flex-row gap-4 items-center">
           <Link href="/">Home </Link>
           <Link href="#about">About Us </Link>
           <Link href="#features">Features </Link>
           <Link href="#howtouse">How to use </Link>
           <Link href="#contact">Contact Us </Link>
         </ul>
+          <ContributeButton />
       </div>
     </div>
   );
