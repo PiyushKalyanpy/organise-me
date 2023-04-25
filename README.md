@@ -51,7 +51,7 @@ Organise Me is licensed under the MIT License - see the [License File](LICENSE) 
 | `CLEAN`   | 🧹    | Clean up code, remove unnecessary elements |
 | `TEST`    | 🧪    | Add or update tests                        |
 | `SEC`     | 🔒    | Improve security measures                   |
-| `DEP`     | 📦    | Update or add dependencies                 |
+| `FILE`     | 📦    | Update or added file                 |
 | `STYLE`   | 🎨    | Update or add styling                       |
 | `CONFIG`  | ⚙️   | Update or add configuration files          |
 | `REFACTOR`| ♻️    | Refactor code without adding new features  |
